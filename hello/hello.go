@@ -1,4 +1,4 @@
-package main
+package hello
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 	"example.com/greetings"
 )
 
-func main() {
+func SayHelloMadam() {
 	message := greetings.Hello("Ma'am")
 	fmt.Println(message)
 }
