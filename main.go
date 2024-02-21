@@ -9,5 +9,5 @@ import (
 func main() {
 	fmt.Printf("Running now...\n")
 
-	hello.SayHelloMadam()
+	hello.SayHello("Maine")
 }
